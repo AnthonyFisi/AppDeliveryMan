@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/house"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/perfilhome"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_billetera"
+            android:icon="@drawable/wallet1"
+            android:title="@string/billetera" />
+        <item
+            android:id="@+id/nav_soporte_cliente"
+            android:icon="@drawable/soporte"
+            android:title="@string/soporte" />
+        <item
+            android:id="@+id/nav_cerrar_sesion"
+            android:icon="@drawable/salida"
+            android:title="@string/cerrar_sesion" />
+
+    </group>
+
+
+</menu>

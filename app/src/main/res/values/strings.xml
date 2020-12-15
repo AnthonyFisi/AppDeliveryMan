@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Repartidor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="ganancia_por_pedido">Ganancia</string>
+    <string name="distancia">Distancia</string>
+    <string name="tiempo">Tiempo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dirigete">Dirigete a la tienda</string>
+    <string name="direccion">direccion</string>
+    <string name="buton_estado_tienda">Estoy en la tienda</string>
+    <string name="cliente">cliente</string>
+    <string name="dirigirse_al_destino">Dirigirse al destino</string>
+    <string name="aceptar">Aceptar pedido</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Recoger">Tengo los productos</string>
+    <string name="productos">Productos</string>
+    <string name="detalle"><u>Detalle</u></string>
+    <string name="cantidad">cantidad</string>
+    <string name="precio_total">total</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="detalle_producto">Detalle</string>
+    <string name="destino">Estoy en el destino</string>
+    <string name="entregar">Entregue los productos</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">ID usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesion</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="text1_login">Olvide mi contraseña</string>
+    <string name="mensaje_cuenta_bloqueada">Cuenta bloquedada por deudas</string>
+    <string name="mensaje_disponible">Activa tu disponibilidad</string>
+    <string name="mensaje_espera">Buscando pedidos pendientes</string>
+    <string name="detail_pedido">Ver detalles</string>
+    <string name="inicio">Inicio</string>
+    <string name="perfil">Perfil</string>
+    <string name="billetera">Billetera</string>
+    <string name="soporte">Soporte al cliente</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="verify_conection">Verificar conexion a internet</string>
+    <string name="message_conection">Lo sentimos,usted no se encuentra conectado a una red de internet</string>
+    <string name="load">Volver a cargar</string>
+
+
+
+
+
+    <!-- SECTION KEY -->
+
+
+    <!--CREATE AN ACCOUNT IN GOOGLECLOUD AND ADQUIRE YOUR APIKEY CREDENTIAL -->
+
+    <string name="googlemaps_place_apikey"></string>
+
+
+</resources>

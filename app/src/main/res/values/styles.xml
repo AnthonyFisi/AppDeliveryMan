@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/original_color</item>
+        <item name="colorPrimaryDark">@color/original_color</item>
+        <item name="colorAccent">@color/original_color</item>
+
+        <item name= "android:textViewStyle" >@style/NovaTextViewStyle </item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme2" parent="AppTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/transparent</item>
+
+        <item name= "android:textViewStyle" >@style/NovaTextViewStyle </item>
+
+        <item name="windowActionBar">false</item>
+
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SubtitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/proxima_nova_alt_light</item>
+    </style>
+0
+    <style name= "NovaTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > @font/proxima_nova_alt_light </item>
+    </style>
+
+
+    <style name= "NovaTextViewStyleBold" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > @font/proxima_nova_alt_light </item>
+    </style>
+
+</resources>
