@@ -3,47 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_lista">
+    app:startDestination="@+id/nav_inicio">
 
     <fragment
         android:id="@+id/nav_inicio"
-        android:name="com.example.motorizadoyego.View.ui.inicio.InicioFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ui.inicio.InicioFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_lista"
-        android:name="com.example.motorizadoyego.View.ProcesUI.listOrder.ListOrderFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ProcesUI.listOrder.ListOrderFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_list_order" />
 
     <fragment
         android:id="@+id/nav_perfil"
-        android:name="com.example.motorizadoyego.View.ui.perfil.PerfilFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ui.perfil.PerfilFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_billetera"
-        android:name="com.example.motorizadoyego.View.ui.billetera.BilleteraFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ui.billetera.BilleteraFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.example.motorizadoyego.View.ui.tools.ToolsFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_soporte_cliente"
-        android:name="com.example.motorizadoyego.View.ui.soporte.SoporteFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ui.soporte.SoporteFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_cerrar_sesion"
-        android:name="com.example.motorizadoyego.View.ui.cerrarSesion.CerrarSesionFragment"
+        android:name="com.mimiperla.motorizadoyego.View.ui.cerrarSesion.CerrarSesionFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
 

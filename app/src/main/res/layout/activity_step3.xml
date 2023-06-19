@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/step3Fragment_activity"
-        android:name="com.example.motorizadoyego.View.ProcesUI.step3.Step3Fragment"
+        android:name="com.mimiperla.motorizadoyego.View.ProcesUI.step3.Step3Fragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

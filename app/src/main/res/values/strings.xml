@@ -67,7 +67,7 @@
 
     <!--CREATE AN ACCOUNT IN GOOGLECLOUD AND ADQUIRE YOUR APIKEY CREDENTIAL -->
 
-    <string name="googlemaps_place_apikey"></string>
+    <string name="googlemaps_place_apikey">AIzaSyCxOO2oNnTXOAqPA7CUQScev5N_-5S-uW4</string>
 
 
 </resources>

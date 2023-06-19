@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:context="com.example.styledmap.MapsActivityRaw" />
+        tools:context="com.mimiperla.styledmap.MapsActivityRaw" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

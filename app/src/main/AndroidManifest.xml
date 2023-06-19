@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.motorizadoyego">
+    package="com.mimiperla.motorizadoyego">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -20,24 +20,25 @@
 
 
     <application
-        android:name=".Util.MyApp"
+        android:name="com.mimiperla.motorizadoyego.Util.MyApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".View.ProcesUI.step6.Step6Activity"></activity>
-        <activity android:name=".View.ProcesUI.step5.Step5Activity" />
-        <activity android:name=".View.ProcesUI.step4.Step4Activity" android:theme="@style/AppTheme2" />
-        <activity android:name=".View.ProcesUI.step3.Step3Activity" />
-        <activity android:name=".View.ui.billetera.detailHistorial.DetailHistorialActivity" />
-        <activity android:name=".View.ProcesUI.step3.DetailProductActivity" />
-        <activity android:name=".View.LoginUI.NetworkActivity" />
-        <activity android:name=".View.LoginUI.ui.login.AfterLoginActivity" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.ProcesUI.step6.Step6Activity"></activity>
+        <activity android:name="com.mimiperla.motorizadoyego.View.ProcesUI.step5.Step5Activity" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.ProcesUI.step4.Step4Activity" android:theme="@style/AppTheme2" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.ProcesUI.step3.Step3Activity" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.ui.billetera.detailHistorial.DetailHistorialActivity" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.ProcesUI.step3.DetailProductActivity" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.LoginUI.NetworkActivity" />
+        <activity android:name="com.mimiperla.motorizadoyego.View.LoginUI.ui.login.AfterLoginActivity" />
         <activity
-            android:name=".View.SplashActivity"
+            android:name="com.mimiperla.motorizadoyego.View.SplashActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +47,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".View.LoginUI.ui.login.LoginActivity"
+            android:name="com.mimiperla.motorizadoyego.View.LoginUI.ui.login.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme" />
 
@@ -58,16 +59,16 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.mimiperla.motorizadoyego.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.mimiperla.motorizadoyego.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.android.fileprovider"
+            android:authorities="com.mimiperla.android.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -75,7 +76,7 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <receiver android:name=".Util.MyReceiver">
+        <receiver android:name="com.mimiperla.motorizadoyego.Util.MyReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
